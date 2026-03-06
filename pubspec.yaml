@@ -27,3 +27,7 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/login_right/
+    - assets/land.jpeg
+    - assets/land1.jpeg

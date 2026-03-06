@@ -11,6 +11,7 @@ import 'pages/add_infrastructure_page.dart';
 import 'pages/edit_infrastructure_page.dart';
 import 'pages/asset_detail_page.dart';
 import 'pages/analytics_page.dart';
+import 'pages/settings_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -104,6 +105,10 @@ final _router = GoRouter(
     GoRoute(
       path: '/analytics',
       builder: (context, state) => const AnalyticsPage(),
+    ),
+    GoRoute(
+      path: '/settings',
+      builder: (context, state) => const SettingsPage(),
     ),
   ],
 );
